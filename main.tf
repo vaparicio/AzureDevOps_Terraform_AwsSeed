@@ -12,7 +12,7 @@ provider "aws" {
 # Call the seed_module to build our ADO seed info
 module "ado_seed" {
   source                       = "./modules/ado_seed"
-  name_of_s3_bucket            = "s3-bucket-name-kyler-ue1-tfstate"
+  name_of_s3_bucket            = "s3-bucket-name-victora-uw1-tfstate"
   dynamo_db_table_name         = "aws-locks"
   iam_user_name                = "AzureDevOpsIamUser"
   ado_iam_role_name            = "AzureDevOpsIamRole"
